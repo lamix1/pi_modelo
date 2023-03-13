@@ -29,28 +29,10 @@ Links do projeto:
 
 ## 1- Ponto de Vendas (PDV)
 
-**Gerenciamento de vendas para uma padaria**
+**Gerenciamento de vendas para um Restaurante**
 
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
+A nossa cliente, Ana Cristina, tem um restaurante chamado Chawarma na Chapa, e, devido ao grande número de produtos no mercado, fora encontrada a necessidade de um sistema para gerenciar os pedidos. É de interesse do cliente que sejam emitidos relatórios de vendas, relatórios de caixa total, relatórios de pratos vendidos, gerenciamento de pratos disponíveis.
 
-## 2- Empréstimo
-
-**Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-## 3- Ordem de Serviço (O.S.)
-
-**Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio, onde ele é responsável pelos consertos e sua esposa Marília realiza os atendimentos aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie
-sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante que ele consiga ter relatórios que lhe ajudem na gestão da
-empresa, como dos status dos serviços.
 
 # Situação Problema
 
@@ -63,6 +45,8 @@ abordando o funcionamento da empresa como um todo, não apenas os “problemas�
 
 Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
 atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
+
+Na empresa atual, existe um sistema utilizado para vendas. Esse sistema é usado para as venda da loja, e nele se encontra a opção de controlar o caixa.  
 
 -   Pesquise sobre empresas do ramo escolhido
     para entender como funcionam;
