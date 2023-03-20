@@ -71,7 +71,14 @@ Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa s
 -   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
     ajudar a resolvê-los.
 
+    A empresa chamada Chawarma na Chapa atua no ramo alimentício desde 2008, variando entre 3 a 5 funcionários além da proprietária Ana Cristina Coco. -->
+    O cliente chega ao estabelecimento, escolhe um determinado prato. O pedido é anotado e repassado para a cozinha, que começa a prepara-lo. Terminado, o cliente está autorizado para buscar, comer no local ou para ter seu pedido entregado. -->
+    Fora encontrado uma dificuldade em manter os pedidos em papel (devido ao excesso e perca de anotações), então, pensando no melhor funcionamento da empresa, iremos desenvolver um sistema de vendas.
+    
+
 # Descrição da proposta
+
+<!-- O sistema atuará como gerenciador de vendas cadastradas em caixa. Serão cadastrados todos os produtos disponíveis (com seus respectivos preços) para compra. O sistema também irá apresentar o valor total em caixa ao final do dia, bem como o lucro mensal do restaurante. -->
 
 Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
 desejado e permita sua continuidade.
