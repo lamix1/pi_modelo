@@ -1,97 +1,34 @@
 # Projeto Integrador - Modelo
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-
-Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
-
-Links do projeto:
-
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   [Backend](github.com/marcoandre/pi-backend)
--   [Frontend](github.com/marcoandre/pi-frontend)
-
-# Como usar esse modelo para o Projeto Integrador
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
-
-# Desenvolvimento
-
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
 # Modelos de Sistemas
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
-
-## 1- Ponto de Vendas (PDV)
 
 **Gerenciamento de vendas para um Restaurante**
 
-A nossa cliente, Ana Cristina, tem um restaurante chamado Chawarma na Chapa, e, devido ao grande número de produtos no mercado, fora encontrada a necessidade de um sistema para gerenciar os pedidos. É de interesse do cliente que sejam emitidos relatórios de vendas, relatórios de caixa total, relatórios de pratos vendidos, gerenciamento de pratos disponíveis.
+    A nossa cliente, Ana Cristina, tem um restaurante chamado Chawarma na Chapa, e, devido ao grande número de pedidos, ela acabou por ter a necessidade de um sistema para gerenciá-los. É de interesse do cliente que sejam emitidos relatórios de vendas, relatórios de caixa total, relatórios de pratos vendidos, gerenciamento de pratos disponíveis.
 
 
 # Situação Problema
 
-**Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
-
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
-Na empresa atual, existe um sistema utilizado para vendas. Esse sistema é usado para as venda da loja, e nele se encontra a opção de controlar o caixa.  
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são
-    propostas com empresas fictícias, sendo assim,
-    você terá que tomar certas decisões sobre como
-    a empresa funciona em relação às coisas que
-    não estão definidas no documento base (por
-    exemplo, no caso da padaria, dizemos que seu
-    Genival contratou mais funcionários, mas saber
-    quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
-    empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários,
-    etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma
-    ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa
-    diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
-    ajudar a resolvê-los.
-
-    A empresa chamada Chawarma na Chapa atua no ramo alimentício desde 2008, variando entre 3 a 5 funcionários além da proprietária Ana Cristina Coco. -->
-    O cliente chega ao estabelecimento, escolhe um determinado prato. O pedido é anotado e repassado para a cozinha, que começa a prepara-lo. Terminado, o cliente está autorizado para buscar, comer no local ou para ter seu pedido entregado. -->
-    Fora encontrado uma dificuldade em manter os pedidos em papel (devido ao excesso e perca de anotações), então, pensando no melhor funcionamento da empresa, iremos desenvolver um sistema de vendas.
+    A empresa chamada Chawarma na Chapa atua no ramo alimentício desde 2008, variando entre 3 a 5 funcionários além da proprietária Ana Cristina. O restaurante apresenta no menu opcões de Chawarma (um lanche Árabe), porções e bebidas.
+    O cliente chega ao estabelecimento e escolhe um determinado prato. O pedido é anotado e repassado para a cozinha, que começa a prepará-lo. Terminado, o cliente está autorizado para buscar, comer no local ou para ter seu pedido entregue. Em situações de delivery, o cliente efetua o seu pedido pelo número do WhatsApp, o pedido é repassado para a cozinha e, quando finalizado, estará disponível para entrega ou retirada.
+    O cliente tem diversas opções de pagamento, podendo escolher entre pix, dinheiro, cartão de crédito ou cartão de débito.
+    Fora encontrada uma dificuldade em manter os pedidos em papel devido a facilidade de perca de informações e excesso de arquivos em papel para serem armazenados, então, pensando no melhor funcionamento da empresa, iremos desenvolver um sistema de vendas para que haja melhor organização e simplicidade para o restaurante.
     
 
 # Descrição da proposta
 
-<!-- O sistema atuará como gerenciador de vendas cadastradas em caixa. Serão cadastrados todos os produtos disponíveis (com seus respectivos preços) para compra. O sistema também irá apresentar o valor total em caixa ao final do dia, bem como o lucro mensal do restaurante. -->
+    O sistema atuará como um gerenciador de vendas para o restaurante, facilitando desde o recebimento do pedido até a contagem do valor final em caixa.
+    De início, o sistema contará com o menu principal, onde o funcionário terá acesso às seguintes opções: iniciar um novo pedido; visualizar o total em caixa; visualizar todos os pedidos feitos no dia.
+    -Iniciar um novo pedido: O atendente terá acesso ao cardápio com todos os produtos ofertados pelo restaurante, podendo selecionar aqueles escolhidos pelo cliente. Após essa primeira etapa, será selecionada a forma de pagamento e, em caso de delivery ou retirada, serão anotadas as informações adicionais. Feito isso, o pedido ficará disponível para impressão.
+    -Visualizar o total em caixa: O atendente poderá editar o valor total em caixa no início do expediente, e, ao longo do dia, serão somados os valores recebidos de pedidos no caixa com o valor inicial, gerando, assim, o valor total.
+    -Visualizar todos os pedidos feitos no dia: Logo no menu inicial, ficará disponível uma lista com todos os pedidos feitos no dia e suas informações básicas, e, com um clique no respectivo pedido, o card será ampliado e as informações completas serão mostradas.
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
-desejado e permita sua continuidade.
+# Regras de Negócio:
 
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em
-    telas ou detalhes específicos, pois isso será feito em outro momento.
-    -   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre
-        eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+    RN001 - O sistema deve ter um menu de opções, que permita aos usuários o acesso às funcionalidades do sistema, que deverão ser: incluir um novo pedido, visualizar o total em caixa e visualizar todos os pedidos feitos no dia.
+    RN002 - O sistema deve ter um cardápio completo com todos os produtos ofertados pelo restaurante, com seus preços e descrições.
+    RN003 - O sistema deve permitir que os funcionários registrem pedidos de forma ráída, com a possibilidade de de selecionar os preatos escolhidos pelo cliente, forma de pagamento e informações adicionais (como o endereço para delivery).
+    RN004 - O sistema deve permitir a impressão de pedidos para que os mesmos sejam repassados para a cozinha.
+    RN005 - O sistema deve gerar relatórios de vendas, incluindo relatórios de caixa total e relatórios de pratos vendidos.
+    RN006 - O sistema deve permitir o gerenciamento de pratos disponíveis, que poderão ser editados pelo funcionário de acordo com a necessidade da empresa.
+    RN007 - O sistema deverá permitir acesso somente aos funcionários autorizados por meio de login e senha. 
