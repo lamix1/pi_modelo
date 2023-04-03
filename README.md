@@ -31,4 +31,5 @@
     RN004 - O sistema deve permitir a impressão de pedidos para que os mesmos sejam repassados para a cozinha.
     RN005 - O sistema deve gerar relatórios de vendas, incluindo relatórios de caixa total e relatórios de pratos vendidos.
     RN006 - O sistema deve permitir o gerenciamento de pratos disponíveis, que poderão ser editados pelo funcionário de acordo com a necessidade da empresa.
-    RN007 - O sistema deverá permitir acesso somente aos funcionários autorizados por meio de login e senha. 
+    RN007 - O sistema deverá permitir acesso somente aos funcionários autorizados por meio de login e senha.
+    
