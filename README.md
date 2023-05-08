@@ -58,3 +58,24 @@ R.F. 06 - Gerenciamentos de produtos: O sistema deve permitir o gerenciamento de
 
 R.F. 07 - Login e Senha: O sistema deverá permitir acesso somente aos funcionários autorizados por meio de login e senha.
     
+# Requisitos Não funcionais:
+
+R.N.F. 01 - Segurança: O sistema deve garantir a segurança dos dados dos clientes. Isso pode incluir o uso de criptografia, autenticação de usuário e protocolos de segurança. 
+
+R.N.F. 02 - Atuação: O sistema deve ser rápido e eficaz na execução de tarefas, desde o processamento de pedidos até a exibição de informações dos produtos e disponibilidade.
+
+R.N.F. 03 - Manutenção: O sistema deve ser fácil de manter e atualizar, com um código bem estruturado e documentado.
+
+R.N.F. 04 - Confiabilidade: O sistema deve ser capaz de lidar com erros sem impactar a experiência do usuário e deve ser capaz de recuperar dados em caso de perda.
+
+R.N.F. 05 - Usabilidade: O sistema deve ser fácil de usar e intuitivo para seus usuários, com um layout bem claro e informações relevantes apresentadas de forma clara.
+
+R.N.F. 06 - Compatibilidade: O sistema deve ser capaz de se integrar com outros sistemas.
+
+R.N.F. 07 - Disponibilidade: O sistema deve estar disponível para os usuários sempre que necessário, sem interrupções ou grandes falhas.
+
+R.N.F. 08 - Banco de Dados: O sistema será implementado com MySQL.
+
+R.N.F. 09 - Framework: Os frameworks utilizados para o desenvolvimento do sistema serão o VueJs e o React Native.
+
+R.N.F. 10 - Linguagens: O sistema deverá ser desenvolvido com as linguagens JavaScript, HTML5, e CSS3.
