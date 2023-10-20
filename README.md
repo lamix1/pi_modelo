@@ -11,18 +11,18 @@ A nossa cliente, Ana Cristina, tem um restaurante chamado Chawarma na Chapa, e, 
 
 A empresa chamada Chawarma na Chapa atua no ramo alimentício desde 2008, variando entre 3 a 5 funcionários além da proprietária Ana Cristina. O restaurante apresenta no menu opcões de Chawarma (um lanche Árabe), porções e bebidas.
 
-O cliente chega ao estabelecimento e escolhe um determinado prato. O pedido é anotado e repassado para a cozinha, que começa a prepará-lo. Terminado, o cliente está autorizado para buscar, comer no local ou para ter seu pedido entregue. Em situações de delivery, o cliente efetua o seu pedido pelo número do WhatsApp, o pedido é repassado para a cozinha e, quando finalizado, estará disponível para entrega ou retirada.
+O cliente chega ao estabelecimento, se dirige a uma das mesas e escolhe um determinado prato. O pedido é anotado pelo garçom e repassado para a cozinha, que começa a prepará-lo. Terminado, o cliente recebe seu pedido.
 
 O cliente tem diversas opções de pagamento, podendo escolher entre pix, dinheiro, cartão de crédito ou cartão de débito.
 
-Fora encontrada uma dificuldade em manter os pedidos em papel devido a facilidade de perca de informações e excesso de arquivos em papel para serem armazenados, então, pensando no melhor funcionamento da empresa, iremos desenvolver um sistema de vendas para que haja melhor organização e simplicidade para o restaurante.
+Fora encontrada uma dificuldade em manter os pedidos em papel devido a perca de informações e excesso de notas de papel para serem armazenadas, então, pensando no melhor funcionamento da empresa, iremos desenvolver um sistema de vendas para que haja melhor organização e simplicidade para o restaurante.
     
 
 # Descrição da proposta
 
-O sistema atuará como um gerenciador de vendas para o restaurante, facilitando desde o recebimento do pedido até a contagem do valor final em caixa.
+O sistema atuará como um gerenciador de vendas para o restaurante, facilitando desde a criação do pedido até a contagem do valor final em caixa. 
 
-De início, o sistema contará com o menu principal, onde o funcionário terá acesso às seguintes opções: iniciar um novo pedido; visualizar o total em caixa; visualizar todos os pedidos feitos no dia.
+Sendo composto por um site utilizando Vue js e um app em React Native, o sistema ofertará, no app: login exclusivo para cada garçom, visualização dos pedidos em aberto e criação de um novo pedido (com mesa, nome do cliente e itens do pedido). Já o site ofertará: controle de logins de funcionários (adicionar, editar e remover), visualização do histórico de pedidos, visualizar cardápio (sendo possível tornar itens indisponíveis) e edição de cardápio (remover, adicionar e editar itens).
 
 -Iniciar um novo pedido: O atendente terá acesso ao cardápio com todos os produtos ofertados pelo restaurante, podendo selecionar aqueles escolhidos pelo cliente. Após essa primeira etapa, será selecionada a forma de pagamento e, em caso de delivery ou retirada, serão anotadas as informações adicionais. Feito isso, o pedido ficará disponível para impressão.
 
