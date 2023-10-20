@@ -68,26 +68,35 @@ RN06 - Controle de Disponibilidade de Itens (Site):
 Administradores podem marcar itens do cardápio como disponíveis ou indisponíveis;
 Itens indisponíveis não podem ser adicionados aos pedidos.
 
-RN07 - Cálculo do Valor Total (App):
+RN07 - Cálculo do Valor Total (App): 
 O aplicativo deve calcular automaticamente o valor total de cada pedido com base nos itens selecionados e seus preços.
 
 
 # Requisitos Funcionais:
 
-R.F. 01 - Menu de Opções: O sistema deve ter um menu de opções, que permita aos usuários o acesso às funcionalidades do sistema, que deverão ser: incluir um novo pedido, visualizar o total em caixa e visualizar todos os pedidos feitos no dia.
+RF 01 - Autenticação: Apenas administradores têm acesso ao site.
+        Funcionários (garçons) têm acesso apenas ao aplicativo.
+        Cada funcionário deve ter um login exclusivo no aplicativo.
 
-R.F. 02 - Cardápio: O sistema deve ter um cardápio completo com todos os produtos ofertados pelo restaurante, com seus preços e descrições.
+RF 02 - Gerenciamento de Funcionários (Site): Apenas administradores podem acessar o site e editar, remover ou adicionar funcionários.
 
-R.F. 03 - Registro de Pedidos: O sistema deve permitir que os funcionários registrem pedidos de forma ráída, com a possibilidade de de selecionar os pratos escolhidos pelo cliente, forma de pagamento e informações adicionais (como o endereço para delivery).
+RF 03 - Pedidos (App): Garçons podem visualizar apenas os pedidos em aberto.
+        Cada pedido deve conter informações como mesa, nome do cliente e itens do pedido.
+        Garçons podem adicionar itens aos pedidos, editar a mesa ou o nome do cliente e marcar o pedido como concluído.
+        Pedidos concluídos não podem ser editados.
 
-R.F. 04 - Impressão: O sistema deve permitir a impressão de pedidos para que os mesmos sejam repassados para a cozinha.
+RF 04 - Cardápio (Site): Apenas administradores podem visualizar e editar o cardápio.
+        O cardápio deve conter informações sobre os itens, como nome, descrição, preço e disponibilidade.    
+        Administradores podem adicionar, editar e remover itens do cardápio.
 
-R.F. 05 - Relatórios: O sistema deve gerar relatórios de vendas, incluindo relatórios de caixa total e relatórios de pratos vendidos.
+RF 05 - Histórico de Pedidos (Site): O site deve manter um histórico de todos os pedidos realizados, incluindo detalhes como data, mesa, nome do cliente e itens do pedido.
+        O histórico deve ser acessível apenas para administradores.
 
-R.F. 06 - Gerenciamentos de produtos: O sistema deve permitir o gerenciamento de pratos e bebidas disponíveis, que poderão ser editados pelo funcionário de acordo com a necessidade do restaurante.
+RF 06 - Controle de Disponibilidade de Itens (Site): Administradores podem marcar itens do cardápio como disponíveis ou indisponíveis.
+        Itens indisponíveis não podem ser adicionados aos pedidos.
 
-R.F. 07 - Login e Senha: O sistema deverá permitir acesso somente aos funcionários autorizados por meio de login e senha.
-    
+RF 07 - Cálculo do Valor Total (App): O aplicativo deve calcular automaticamente o valor total de cada pedido com base nos itens selecionados e seus preços.
+
 # Requisitos Não funcionais:
 
 R.N.F. 01 - Segurança: O sistema deve garantir a segurança dos dados dos clientes. Isso pode incluir o uso de criptografia, autenticação de usuário e protocolos de segurança. 
