@@ -41,13 +41,36 @@ Já o site ofertará:
 
 # Regras de Negócio:
 
-RN01 - Autenticação: Somente funcionários autorizados poderão entrar no sistema por meio de login e senha.
+RN01 - Autenticação: 
+Apenas administradores têm acesso ao site;
+Funcionários (garçons) têm acesso apenas ao aplicativo;
+Cada funcionário deve ter um login exclusivo no aplicativo.
 
-RN02 - Cadastro de Produtos: Todos os pratos e bebidas cadastrados no sistema devem possuir descrição com suas informações.
+RN02 - Gerenciamento de Funcionários (Site): 
+Apenas administradores podem acessar o site e editar, remover ou adicionar funcionários.
 
-RN03 - Relatórios: Somente o administrador poderá ter acesso aos relatórios finais de vendas e de caixa.
+RN03 - Pedidos (App):
+Garçons podem visualizar apenas os pedidos em aberto;
+Cada pedido deve conter informações como mesa, nome do cliente e itens do pedido;
+Garçons podem adicionar itens aos pedidos, editar a mesa ou o nome do cliente e marcar o pedido como concluído;
+Pedidos concluídos não podem ser editados;
 
-RN04 -  Edições de Pedidos: Os pedidos poderão ser editados por funcionários somente enquanto ainda estiverem em aberto. Após o fechamento do pedido, este poderá ser editado apenas pelo administrador.
+RN04 - Cardápio (Site):
+Apenas administradores podem visualizar e editar o cardápio;
+O cardápio deve conter informações sobre os itens, como nome, descrição, preço e disponibilidade;
+Administradores podem adicionar, editar e remover itens do cardápio.
+
+RN05 - Histórico de Pedidos (Site):
+O site deve manter um histórico de todos os pedidos realizados, incluindo detalhes como data, mesa, nome do cliente e itens do pedido;
+O histórico deve ser acessível apenas para administradores;
+
+RN06 - Controle de Disponibilidade de Itens (Site):
+Administradores podem marcar itens do cardápio como disponíveis ou indisponíveis;
+Itens indisponíveis não podem ser adicionados aos pedidos.
+
+RN07 - Cálculo do Valor Total (App):
+O aplicativo deve calcular automaticamente o valor total de cada pedido com base nos itens selecionados e seus preços.
+
 
 # Requisitos Funcionais:
 
