@@ -22,13 +22,22 @@ Fora encontrada uma dificuldade em manter os pedidos em papel devido a perca de 
 
 O sistema atuará como um gerenciador de vendas para o restaurante, facilitando desde a criação do pedido até a contagem do valor final em caixa. 
 
-Sendo composto por um site utilizando Vue js e um app em React Native, o sistema ofertará, no app: login exclusivo para cada garçom, visualização dos pedidos em aberto e criação de um novo pedido (com mesa, nome do cliente e itens do pedido). Já o site ofertará: controle de logins de funcionários (adicionar, editar e remover), visualização do histórico de pedidos, visualizar cardápio (sendo possível tornar itens indisponíveis) e edição de cardápio (remover, adicionar e editar itens).
+Sendo composto por um site utilizando Vue js e um app em React Native, o sistema ofertará, no app:
+-Login exclusivo para cada garçom;
 
--Iniciar um novo pedido: O atendente terá acesso ao cardápio com todos os produtos ofertados pelo restaurante, podendo selecionar aqueles escolhidos pelo cliente. Após essa primeira etapa, será selecionada a forma de pagamento e, em caso de delivery ou retirada, serão anotadas as informações adicionais. Feito isso, o pedido ficará disponível para impressão.
+-Visualização dos pedidos em aberto;
 
--Visualizar o total em caixa: O atendente poderá editar o valor total em caixa no início do expediente, e, ao longo do dia, serão somados os valores recebidos de pedidos no caixa com o valor inicial, gerando, assim, o valor total.
+-Criação de um novo pedido (com mesa, nome do cliente e itens do pedido).
 
--Visualizar todos os pedidos feitos no dia: Logo no menu inicial, ficará disponível uma lista com todos os pedidos feitos no dia e suas informações básicas, e, com um clique no respectivo pedido, o card será ampliado e as informações completas serão mostradas.
+Já o site ofertará: 
+
+-Controle de logins de funcionários (adicionar, editar e remover);
+
+-Visualização do histórico de pedidos;
+
+-Visualizar cardápio (sendo possível tornar itens indisponíveis);
+
+-Edição de cardápio (remover, adicionar e editar itens).
 
 # Regras de Negócio:
 
