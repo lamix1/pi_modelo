@@ -49,8 +49,6 @@ RN03 - Relatórios: Somente o administrador poderá ter acesso aos relatórios f
 
 RN04 -  Edições de Pedidos: Os pedidos poderão ser editados por funcionários somente enquanto ainda estiverem em aberto. Após o fechamento do pedido, este poderá ser editado apenas pelo administrador.
 
-RN05 - Delivery: Pedidos com delivery somente poderão ser registrados se informações básicas para contato com o cliente constarem no pedido.
-
 # Requisitos Funcionais:
 
 R.F. 01 - Menu de Opções: O sistema deve ter um menu de opções, que permita aos usuários o acesso às funcionalidades do sistema, que deverão ser: incluir um novo pedido, visualizar o total em caixa e visualizar todos os pedidos feitos no dia.
